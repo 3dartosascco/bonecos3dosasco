@@ -1,0 +1,32 @@
+{
+  "arquivo_autossuficiente": true,
+  "imagens_totais": 25,
+  "imagens_data_uri": 25,
+  "imagens_quebraveis_assets": 0,
+  "imagens_reais_fontes": {
+    "logo": "/mnt/data/dynamic_superhero_3d_logo_badge.png",
+    "hero": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (5).jpeg",
+    "pet": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (8).jpeg",
+    "homenagem": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.14 (3).jpeg",
+    "familia": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.15.jpeg",
+    "hobby": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (13).jpeg",
+    "profissao": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (14).jpeg",
+    "empresa": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (2).jpeg",
+    "cliente1": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (5).jpeg",
+    "cliente2": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.14 (3).jpeg",
+    "cliente3": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (13).jpeg",
+    "artistas": "/mnt/data/WhatsApp Image 2026-05-06 at 14.20.44.jpeg",
+    "tecnologia": "/mnt/data/WhatsApp Image 2026-05-06 at 14.20.44.jpeg",
+    "pais": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.14 (3).jpeg",
+    "menina": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.13 (9).jpeg",
+    "urbano": "/mnt/data/WhatsApp Image 2026-07-20 at 23.06.14.jpeg",
+    "instagram": "/mnt/data/WhatsApp Image 2026-07-23 at 19.57.13.jpeg"
+  },
+  "h1_count": 1,
+  "tem_whatsapp": true,
+  "tem_instagram": true,
+  "tem_youtube": true,
+  "tem_video": true,
+  "index_mb": 3.24,
+  "github_project_path_safe": true
+}

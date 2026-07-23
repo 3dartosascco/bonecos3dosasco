@@ -1,0 +1,7 @@
+CORREÇÃO DEFINITIVA DAS IMAGENS
+
+1. Apague os arquivos antigos do repositório bonecos3dosasco.
+2. Envie index.html, .nojekyll, robots.txt e sitemap.xml deste pacote para a raiz.
+3. As 25 imagens estão incorporadas dentro do index.html.
+4. Não existe pasta assets obrigatória.
+5. Isso impede que as fotos desapareçam por erro de caminho no GitHub Pages.
