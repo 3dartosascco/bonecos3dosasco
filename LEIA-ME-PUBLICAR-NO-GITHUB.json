@@ -1,0 +1,21 @@
+{
+  "projeto": "3D Art Osasco — versão final responsiva para GitHub Pages",
+  "base": "Projeto consolidado sem reiniciar do zero.",
+  "inclui": [
+    "Responsivo desktop, tablet e celular",
+    "Navegação mobile e CTA fixo para WhatsApp",
+    "Vitrine leve de início de pedido",
+    "Fotos locais dentro da pasta assets",
+    "Vídeo de Elton e Sandra com capa personalizada",
+    "Banner de Instagram com mockups de celular, tablet e computador",
+    "Links reais de Instagram e YouTube",
+    "Biblioteca própria de ícones SVG da marca",
+    "GA4, Search Console, schema, sitemap, robots, manifest e CNAME"
+  ],
+  "como_publicar": [
+    "Descompacte o ZIP.",
+    "Envie todos os arquivos e a pasta assets para a raiz do repositório GitHub Pages.",
+    "Não envie apenas o index.html.",
+    "Mantenha o arquivo CNAME com www.3dartosasco.com.br."
+  ]
+}
