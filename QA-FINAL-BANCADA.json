@@ -1,0 +1,17 @@
+{
+  "index_kb": 55.0,
+  "assets_count": 18,
+  "src_assets": "/mnt/data/3d-art-osasco-publicacao-limpa/assets",
+  "qtd_15_off": 31,
+  "tem_endereco": true,
+  "tem_10000": true,
+  "tem_20_anos": true,
+  "tem_prova_social": true,
+  "tem_personalizar": true,
+  "tem_antes_de_pedir": true,
+  "tem_seo_local": true,
+  "tem_svg_icons": true,
+  "tem_ga4": true,
+  "tem_schema": true,
+  "domain": "www.3dartosasco.com.br"
+}

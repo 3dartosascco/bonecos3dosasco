@@ -1,0 +1,25 @@
+{
+  "projeto": "3D Art Osasco - correção UX mobile 10/10",
+  "alteracoes_mobile": [
+    "Atalhos horizontais sticky abaixo do header",
+    "Bottom buy sheet fixo com WhatsApp + Ver ideias",
+    "Hero mobile mais curto e escaneável",
+    "Cards de vitrine em formato lista para toque rápido",
+    "Provas compactas no hero: +10k, +20 anos, Osasco",
+    "Passos do processo em formato vertical leve",
+    "Footer mobile mais claro com endereço e segurança",
+    "Botão de Instagram garantido no rodapé",
+    "Endereço mantido no rodapé",
+    "CTA principal mobile orientado para envio de foto"
+  ],
+  "observacao_instagram": "O botão de Instagram foi incluído, mas está com URL genérica https://www.instagram.com/ porque o perfil exato não foi informado nesta conversa.",
+  "arquivos_para_subir": [
+    "index.html",
+    "assets/",
+    "CNAME",
+    ".nojekyll",
+    "robots.txt",
+    "sitemap.xml",
+    "site.webmanifest"
+  ]
+}

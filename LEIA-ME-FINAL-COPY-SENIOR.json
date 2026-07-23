@@ -1,0 +1,39 @@
+{
+  "projeto": "3D Art Osasco - versão final bancada de especialistas",
+  "dominio": "www.3dartosasco.com.br",
+  "endereco": "Rua América de Nicola, 5A, Pestana, Osasco – SP, CEP 06122-070",
+  "arquivos_para_subir": [
+    "index.html",
+    "assets/",
+    "CNAME",
+    ".nojekyll",
+    "robots.txt",
+    "sitemap.xml",
+    "site.webmanifest"
+  ],
+  "entregue": [
+    "Hero reescrito com foco em Google, foto, aprovação e cupom",
+    "Vitrine com cupom 15% OFF em todos os cards",
+    "Como funciona com SVGs profissionais",
+    "O que você pode personalizar",
+    "Compra segura com endereço, +10.000 vendidos e +20 anos",
+    "Prova social real",
+    "Pessoas por trás",
+    "Tecnologia por trás",
+    "Missão, visão e valores",
+    "Campanhas Dia dos Pais e Dia das Crianças",
+    "Antes de pedir, separe isso",
+    "SEO local para Osasco, Grande São Paulo e Brasil",
+    "FAQ expandido",
+    "Eventos GA4 para WhatsApp, busca e FAQ",
+    "Schema LocalBusiness, Product e FAQPage",
+    "Favicon, manifest, sitemap, robots, CNAME"
+  ],
+  "lapidacao_senior": [
+    "Seção de Elton e Sandra reescrita para vender confiança, não biografia decorativa",
+    "Adicionado bloco 'Por que essa história aumenta a segurança da sua compra'",
+    "Missão, visão e valores reescritos com linguagem menos corporativa e mais útil para conversão",
+    "Tecnologia reescrita para explicar valor percebido: material + transformação + aprovação",
+    "Menu atualizado com âncora 'Quem faz'"
+  ]
+}
