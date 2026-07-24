@@ -1,0 +1,9 @@
+{
+  "mobile_step_grid_fixed": true,
+  "mobile_cta_compact": true,
+  "mobile_body_padding_bottom": true,
+  "images_embedded": true,
+  "image_count": 25,
+  "whatsapp": true,
+  "index_mb": 3.25
+}

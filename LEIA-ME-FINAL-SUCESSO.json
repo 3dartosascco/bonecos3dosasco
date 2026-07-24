@@ -1,0 +1,25 @@
+{
+  "projeto": "3D Art Osasco — versão final para publicação",
+  "status": "pronto para GitHub Pages",
+  "decisoes_aplicadas": [
+    "Busca removida",
+    "Hero curto e direto",
+    "Vitrine leve de início de pedido",
+    "Fotos reais variadas e sem cortes",
+    "Elton e Sandra apenas onde agregam",
+    "Vídeo com capa personalizada",
+    "Instagram e YouTube como prova social",
+    "Ícones próprios da marca",
+    "Responsivo desktop, tablet e celular",
+    "CTA fixo mobile compacto",
+    "Imagens WebP organizadas em assets",
+    "GA4, Search Console, schema, favicon, manifest, sitemap, robots e CNAME"
+  ],
+  "como_publicar": [
+    "Apague os arquivos antigos do repositório.",
+    "Envie todo o conteúdo deste ZIP para a raiz do repositório.",
+    "Mantenha a pasta assets completa.",
+    "Não altere os nomes dos arquivos.",
+    "Aguarde o GitHub Pages atualizar e teste o domínio oficial."
+  ]
+}
