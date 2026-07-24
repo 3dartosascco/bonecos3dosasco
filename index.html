@@ -11,6 +11,8 @@
 
 <!DOCTYPE html>
 
+<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"/>
@@ -1458,6 +1460,76 @@ section{scroll-margin-top:90px}
     padding:6px!important;
   }
 }
+
+/* CAMPANHAS FINAIS — CONTRASTE, APELO E IMAGENS COERENTES */
+.campaigns .campaign{
+  min-height:300px!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+}
+.campaigns .campaign.blue{
+  background:linear-gradient(135deg,#07336f 0%,#0a4b9c 58%,#eaf3ff 58%,#f7fbff 100%)!important;
+}
+.campaigns .campaign.blue .campaign-text{
+  position:relative!important;
+  z-index:2!important;
+  max-width:58%!important;
+}
+.campaigns .campaign.blue h3,
+.campaigns .campaign.blue p{
+  color:#fff!important;
+  text-shadow:0 1px 1px rgba(0,0,0,.12)!important;
+}
+.campaigns .campaign.orange{
+  background:linear-gradient(135deg,#fff7ef 0%,#fffaf6 58%,#fff1e5 58%,#fff9f4 100%)!important;
+}
+.campaigns .campaign .campaign-product-full{
+  width:38%!important;
+  height:260px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  padding:10px!important;
+  align-self:center!important;
+  background:transparent!important;
+}
+.campaigns .campaign h3{
+  font-size:clamp(25px,2.3vw,38px)!important;
+  line-height:1.03!important;
+  max-width:560px!important;
+}
+.campaigns .campaign p{
+  max-width:520px!important;
+  font-size:16px!important;
+  line-height:1.45!important;
+}
+@media(max-width:860px){
+  .campaigns .campaign{
+    min-height:auto!important;
+    grid-template-columns:1fr!important;
+  }
+  .campaigns .campaign.blue{
+    background:linear-gradient(180deg,#07336f 0%,#0a4b9c 62%,#eef5ff 62%,#f8fbff 100%)!important;
+  }
+  .campaigns .campaign.blue .campaign-text{
+    max-width:100%!important;
+  }
+  .campaigns .campaign .campaign-product-full{
+    width:100%!important;
+    height:260px!important;
+    order:2!important;
+  }
+}
+@media(max-width:520px){
+  .campaigns .campaign{
+    padding:22px!important;
+  }
+  .campaigns .campaign h3{
+    font-size:28px!important;
+  }
+  .campaigns .campaign .campaign-product-full{
+    height:240px!important;
+  }
+}
 </style>
 <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/><link href="assets/favicon-192.png" rel="apple-touch-icon" type="image/png"/><link href="site.webmanifest" rel="manifest" type="application/manifest+json"/></head>
 <body>
@@ -1625,7 +1697,7 @@ section{scroll-margin-top:90px}
 </section>
 <section><div class="container split reverse"><div class="content-card tech-box"><h2>A impressão cria a estrutura. O acabamento transforma a peça.</h2><p>Cada boneco passa por modelagem digital, impressão 3D e pintura manual.</p><p><strong>Você não está pagando apenas por material. Está investindo na transformação de uma história em lembrança física.</strong></p><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20transformar%20uma%20foto%20em%20boneco%203D%20personalizado.%20Quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20na%20primeira%20compra.%20Vou%20enviar%20agora%3A%20foto%2C%20ocasi%C3%A3o%20do%20presente%2C%20cidade/estado%20e%20ideia%20do%20boneco." rel="noopener" target="_blank">Enviar foto com 15% OFF</a></div><div class="image-panel"><img alt="Impressora 3D Bambu Lab usada na produção da 3D Art Osasco" class="technology-photo-full" decoding="async" loading="lazy" src="assets/impressora-3d-bambu-lab-usada-na-produo-da-3d-art-os-65cfc108b6.webp"/></div></div></section>
 <section class="mvv"><div class="container"><div class="section-head"><h2>Nosso compromisso com cada pedido</h2><p>Ouvir sua ideia, criar com cuidado, aprovar antes de produzir e entregar com responsabilidade.</p></div><div class="mvv-grid"><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--missao"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M32 53S13 41 13 25a11 11 0 0 1 19-8 11 11 0 0 1 19 8c0 16-19 28-19 28z"></path><path d="M24 31h16"></path><path d="M32 23v16"></path></g></svg></span></div><h3>Escutar</h3><p>Entender a história, a ocasião e os detalhes que não podem faltar.</p></article><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--visao"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M9 32s9-14 23-14 23 14 23 14-9 14-23 14S9 32 9 32z"></path><circle cx="32" cy="32" r="8"></circle><path d="M32 12v-4"></path><path d="M46 16l3-3"></path></g></svg></span></div><h3>Criar com transparência</h3><p>Mostrar o modelo antes da impressão e orientar cada etapa.</p></article><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--valores"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M32 57s20-10 20-27V14L32 7 12 14v16c0 17 20 27 20 27z"></path><path d="M22 31l6 6 14-16"></path><path d="M20 16l12-4 12 4"></path></g></svg></span></div><h3>Entregar com cuidado</h3><p>Finalizar manualmente, embalar e combinar a entrega com clareza.</p></article></div></div></section>
-<section><div class="container campaigns"><article class="campaign blue"><div class="campaign-text"><h3>Dia dos Pais: uma homenagem que ele não espera</h3><p>Transforme uma foto, profissão ou hobby em um presente personalizado.</p><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20para%20fazer%20um%20boneco%203D%20personalizado%20para%20o%20Dia%20dos%20Pais.%20Vou%20enviar%3A%20foto%2C%20ideia%20da%20homenagem%20e%20cidade/estado." rel="noopener" target="_blank">Planejar presente do meu pai</a></div><img alt="Boneco personalizado para Dia dos Pais" class="product-photo-full" decoding="async" loading="lazy" src="assets/boneco-personalizado-para-dia-dos-pais-01e471e645.webp"/></article><article class="campaign orange"><div class="campaign-text"><h3>Dia das Crianças com uma peça única</h3><p>Crie um boneco inspirado na criança, no pet ou no hobby favorito.</p><a class="btn btn--orange" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20para%20planejar%20um%20boneco%203D%20personalizado%20para%20o%20Dia%20das%20Crian%C3%A7as.%20Vou%20enviar%3A%20ideia%2C%20refer%C3%AAncias%2C%20personagem/hobby%20e%20cidade/estado." rel="noopener" target="_blank">Criar boneco para criança</a></div><img alt="Boneca 3D para Dia das Crianças" class="product-photo-full" decoding="async" loading="lazy" src="assets/boneca-3d-para-dia-das-crianas-4be4e5ff74.webp"/></article></div></section>
+<section><div class="container campaigns"><article class="campaign blue"><div class="campaign-text"><h3>Seu pai já ganhou presentes comuns. Desta vez, dê a história dele.</h3><p>Transforme uma foto, profissão ou hobby do seu pai em um boneco feito especialmente para ele.</p><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20criar%20uma%20homenagem%20personalizada%20para%20o%20meu%20pai.%20Quero%20transformar%20uma%20foto%2C%20profiss%C3%A3o%2C%20hobby%20ou%20lembran%C3%A7a%20marcante%20dele%20em%20um%20boneco%203D.%20Tamb%C3%A9m%20quero%20usar%20o%20cupom%20de%2015%25%20OFF%20na%20primeira%20compra.%20Vou%20enviar%20a%20foto%20e%20contar%20a%20hist%C3%B3ria." rel="noopener" target="_blank">Criar uma homenagem para meu pai</a></div><img alt="Boneco 3D personalizado para presentear o pai" class="product-photo-full campaign-product-full" decoding="async" loading="lazy" src="assets/boneco-personalizado-para-dia-dos-pais-01e471e645.webp"/></article><article class="campaign orange"><div class="campaign-text"><h3>O personagem favorito da criança pode ganhar vida em 3D</h3><p>Crie uma peça inspirada na criança, no herói, na fantasia ou no hobby que ela mais ama.</p><a class="btn btn--orange" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20criar%20um%20presente%20personalizado%20para%20uma%20crian%C3%A7a.%20Quero%20uma%20pe%C3%A7a%20inspirada%20nela%2C%20no%20personagem%2C%20na%20fantasia%20ou%20no%20hobby%20favorito.%20Tamb%C3%A9m%20quero%20usar%20o%20cupom%20de%2015%25%20OFF%20na%20primeira%20compra.%20Vou%20enviar%20as%20refer%C3%AAncias." rel="noopener" target="_blank">Criar presente para uma criança</a></div><img alt="Boneca 3D colorida inspirada em personagem para o Dia das Crianças" class="product-photo-full campaign-product-full" decoding="async" loading="lazy" src="assets/boneco-3d-personalizado-famlia-42071c8b02.webp"/></article></div></section>
 <section class="trust-section" id="seo-local"><div class="container"><div class="section-head"><h2>Feito em Osasco. Enviado para onde sua história precisa chegar.</h2><p>Produzimos em Osasco e atendemos São Paulo, Grande São Paulo, todo o Brasil e exterior. Pelo WhatsApp, confirmamos prazo, frete e forma de entrega.</p></div></div></section>
 <section id="duvidas"><div class="container"><div class="section-head"><h2>Dúvidas antes de fazer seu pedido</h2><p>Respondemos aqui para você chegar no WhatsApp mais seguro e já com a foto pronta para enviar.</p></div><div class="faq-wrap"><details class="faq-item"><summary>Quanto custa um boneco 3D personalizado?</summary><p>O boneco personalizado de 20 cm sai a partir de R$150. Na primeira compra, você pode usar 15% OFF pelo WhatsApp. O valor final depende dos detalhes da peça, como pet, acessórios, base especial, quantidade de pessoas ou complexidade da pintura.</p></details><details class="faq-item"><summary>Como eu começo meu pedido?</summary><p>Escolha uma ideia no site e envie sua foto pelo WhatsApp. A equipe entende o que você quer, orienta os detalhes e prepara o caminho para criação do modelo em 3D.</p></details><details class="faq-item"><summary>Preciso mandar quantas fotos?</summary><p>Você pode começar com uma boa foto. Se a equipe precisar de mais referências de rosto, roupa, cabelo, pet ou acessório, ela pede pelo WhatsApp.</p></details><details class="faq-item"><summary>Eu aprovo antes de produzir?</summary><p>Sim. Esse é um dos pontos mais importantes. Antes da impressão, o modelo passa por aprovação. O pedido só segue para produção depois da sua confirmação.</p></details><details class="faq-item"><summary>Posso pedir ajuste antes de imprimir?</summary><p>Sim. O momento de ajuste é antes da impressão, na etapa de aprovação do modelo em 3D.</p></details><details class="faq-item"><summary>O valor pode mudar?</summary><p>Sim. O preço inicial é para bonecos de 20 cm a partir de R$150. Composição com mais pessoas, pet, base especial, muitos acessórios ou detalhes complexos recebe orçamento personalizado.</p></details><details class="faq-item"><summary>Vai ficar parecido com a pessoa?</summary><p>O objetivo é criar uma representação personalizada e afetiva a partir da foto, com atenção a rosto, roupa, cabelo, profissão, hobby e acessórios. A aprovação antes da produção ajuda a alinhar expectativa e detalhes.</p></details><details class="faq-item"><summary>Quem faz a pintura manual?</summary><p>Depois da impressão, a pintura é feita manualmente por Sandra Funari e equipe. Sandra é artesã há mais de 20 anos e coloca cuidado nos detalhes de rosto, roupa, cabelo, acessórios e acabamento.</p></details><details class="faq-item"><summary>Vocês entregam onde?</summary><p>A fábrica fica em Osasco. Fazemos entrega local, Grande São Paulo, enviamos para todo o Brasil e também para o exterior, com frete a combinar.</p></details><details class="faq-item"><summary>Dá para comprar pelo Mercado Livre?</summary><p>Sim. Quando for mais conveniente para o cliente, a compra pelo Mercado Livre também pode ser uma opção. Pelo WhatsApp, a equipe orienta o melhor caminho.</p></details><details class="faq-item"><summary>Quais formas de pagamento posso combinar?</summary><p>O pagamento pode ser combinado pelo WhatsApp conforme o pedido. O Mercado Livre também pode ser usado quando fizer sentido para dar mais segurança ao cliente.</p></details><details class="faq-item"><summary>Serve para presente de última hora?</summary><p>Depende da fila, da complexidade do boneco, aprovação, pintura e entrega. O ideal é chamar no WhatsApp e verificar o prazo antes de prometer a data.</p></details></div></div></section>
 <section class="final-cta"><div class="container"><div class="cta-band"><div><h2>A próxima homenagem pode começar com uma única foto</h2><p>Envie a referência, conte para quem é o presente e quais detalhes não podem faltar. A produção só começa depois da sua aprovação.</p></div><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20transformar%20uma%20foto%20em%20boneco%203D%20personalizado.%20Quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20na%20primeira%20compra.%20Vou%20enviar%20agora%3A%20foto%2C%20ocasi%C3%A3o%20do%20presente%2C%20cidade/estado%20e%20ideia%20do%20boneco." rel="noopener" target="_blank">Enviar foto e começar meu pedido</a><img alt="Boneco 3D personalizado" class="product-photo-full" decoding="async" loading="lazy" src="assets/boneco-3d-personalizado-9eb050476e.webp"/></div></div></section>
