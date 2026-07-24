@@ -9,6 +9,8 @@
 
 <!DOCTYPE html>
 
+<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"/>
@@ -1414,6 +1416,48 @@ section{scroll-margin-top:90px}
     padding-top:32px!important;
   }
 }
+
+/* CORREÇÃO FINAL — FOTO DE ELTON E SANDRA SEM CORTES */
+#video-elton-sandra .video-thumb,
+#video-elton-sandra .video-cover,
+#video-elton-sandra figure,
+#video-elton-sandra .video-media{
+  overflow:hidden!important;
+  background:#eef3f8!important;
+  border-radius:18px!important;
+}
+#video-elton-sandra .video-cover-full{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  background:#eef3f8!important;
+  padding:8px!important;
+  display:block!important;
+}
+@media(min-width:721px){
+  #video-elton-sandra .video-grid,
+  #video-elton-sandra .video-layout{
+    align-items:stretch!important;
+  }
+  #video-elton-sandra .video-thumb,
+  #video-elton-sandra .video-cover,
+  #video-elton-sandra figure,
+  #video-elton-sandra .video-media{
+    min-height:320px!important;
+  }
+}
+@media(max-width:720px){
+  #video-elton-sandra .video-thumb,
+  #video-elton-sandra .video-cover,
+  #video-elton-sandra figure,
+  #video-elton-sandra .video-media{
+    min-height:280px!important;
+  }
+  #video-elton-sandra .video-cover-full{
+    padding:6px!important;
+  }
+}
 </style>
 <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/><link href="assets/favicon-192.png" rel="apple-touch-icon" type="image/png"/><link href="site.webmanifest" rel="manifest" type="application/manifest+json"/></head>
 <body>
@@ -1563,7 +1607,7 @@ section{scroll-margin-top:90px}
 <div class="container split">
 <div class="video-cover-card">
 <a aria-label="Assistir vídeo da 3D Art Osasco no YouTube Shorts" href="https://www.youtube.com/@3dartosasco/shorts" rel="noopener" target="_blank">
-<img alt="Elton e Sandra da 3D Art Osasco em capa de vídeo" decoding="async" loading="lazy" src="assets/elton-e-sandra-da-3d-art-osasco-em-capa-de-vdeo-8a0ac59b9e.webp"/>
+<img alt="Elton e Sandra da 3D Art Osasco em capa de vídeo" class="video-cover-full" decoding="async" loading="eager" src="assets/elton-e-sandra-da-3d-art-osasco-em-capa-de-vdeo-8a0ac59b9e.webp"/>
 <span class="video-play">▶</span>
 <span class="video-badge">YouTube Shorts</span>
 </a>
@@ -1575,12 +1619,10 @@ section{scroll-margin-top:90px}
 <p><strong>Pessoas reais, endereço real e um processo que você acompanha antes da impressão.</strong></p>
 <div class="hero-actions">
 <a class="btn btn--green" href="https://www.youtube.com/@3dartosasco/shorts" rel="noopener" target="_blank">Assistir no YouTube</a>
-
 </div>
 </div>
 </div>
 </section>
-
 <section><div class="container split reverse"><div class="content-card tech-box"><h2>A impressão cria a estrutura. O acabamento transforma a peça.</h2><p>Cada boneco passa por modelagem digital, impressão 3D e pintura manual.</p><p><strong>Você não está pagando apenas por material. Está investindo na transformação de uma história em lembrança física.</strong></p><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20transformar%20uma%20foto%20em%20boneco%203D%20personalizado.%20Quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20na%20primeira%20compra.%20Vou%20enviar%20agora%3A%20foto%2C%20ocasi%C3%A3o%20do%20presente%2C%20cidade/estado%20e%20ideia%20do%20boneco." rel="noopener" target="_blank">Enviar foto com 15% OFF</a></div><div class="image-panel"><img alt="Impressora 3D Bambu Lab usada na produção da 3D Art Osasco" class="technology-photo-full" decoding="async" loading="lazy" src="assets/impressora-3d-bambu-lab-usada-na-produo-da-3d-art-os-65cfc108b6.webp"/></div></div></section>
 <section class="mvv"><div class="container"><div class="section-head"><h2>Nosso compromisso com cada pedido</h2><p>Ouvir sua ideia, criar com cuidado, aprovar antes de produzir e entregar com responsabilidade.</p></div><div class="mvv-grid"><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--missao"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M32 53S13 41 13 25a11 11 0 0 1 19-8 11 11 0 0 1 19 8c0 16-19 28-19 28z"></path><path d="M24 31h16"></path><path d="M32 23v16"></path></g></svg></span></div><h3>Escutar</h3><p>Entender a história, a ocasião e os detalhes que não podem faltar.</p></article><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--visao"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M9 32s9-14 23-14 23 14 23 14-9 14-23 14S9 32 9 32z"></path><circle cx="32" cy="32" r="8"></circle><path d="M32 12v-4"></path><path d="M46 16l3-3"></path></g></svg></span></div><h3>Criar com transparência</h3><p>Mostrar o modelo antes da impressão e orientar cada etapa.</p></article><article class="mvv-card"><div class="secure-icon"><span class="brand-icon brand-icon--valores"><svg aria-hidden="true" role="img" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M32 57s20-10 20-27V14L32 7 12 14v16c0 17 20 27 20 27z"></path><path d="M22 31l6 6 14-16"></path><path d="M20 16l12-4 12 4"></path></g></svg></span></div><h3>Entregar com cuidado</h3><p>Finalizar manualmente, embalar e combinar a entrega com clareza.</p></article></div></div></section>
 <section><div class="container campaigns"><article class="campaign blue"><div class="campaign-text"><h3>Dia dos Pais: uma homenagem que ele não espera</h3><p>Transforme uma foto, profissão ou hobby em um presente personalizado.</p><a class="btn btn--green" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20para%20fazer%20um%20boneco%203D%20personalizado%20para%20o%20Dia%20dos%20Pais.%20Vou%20enviar%3A%20foto%2C%20ideia%20da%20homenagem%20e%20cidade/estado." rel="noopener" target="_blank">Planejar presente do meu pai</a></div><img alt="Boneco personalizado para Dia dos Pais" class="product-photo-full" decoding="async" loading="lazy" src="assets/boneco-personalizado-para-dia-dos-pais-01e471e645.webp"/></article><article class="campaign orange"><div class="campaign-text"><h3>Dia das Crianças com uma peça única</h3><p>Crie um boneco inspirado na criança, no pet ou no hobby favorito.</p><a class="btn btn--orange" href="https://wa.me/5511940317041?text=Ol%C3%A1%21%20Vim%20pelo%20site%20oficial%20da%203D%20Art%20Osasco%20e%20quero%20usar%20o%20CUPOM%20de%2015%25%20OFF%20para%20planejar%20um%20boneco%203D%20personalizado%20para%20o%20Dia%20das%20Crian%C3%A7as.%20Vou%20enviar%3A%20ideia%2C%20refer%C3%AAncias%2C%20personagem/hobby%20e%20cidade/estado." rel="noopener" target="_blank">Criar boneco para criança</a></div><img alt="Boneca 3D para Dia das Crianças" class="product-photo-full" decoding="async" loading="lazy" src="assets/boneca-3d-para-dia-das-crianas-4be4e5ff74.webp"/></article></div></section>
