@@ -1,0 +1,15 @@
+{
+  "removed": [
+    "antes-de-pedir",
+    "historia-elton-sandra-duplicada"
+  ],
+  "antes_de_pedir_exists": false,
+  "historia_exists": false,
+  "video_section_exists": true,
+  "duplicate_creator_titles": 1,
+  "whatsapp_ok": true,
+  "images_missing": [],
+  "sections_total": 14,
+  "index_kb": 101.8,
+  "ready": true
+}
